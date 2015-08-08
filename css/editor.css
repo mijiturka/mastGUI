@@ -1,0 +1,79 @@
+<style type="text/css" media="screen">
+	
+	body {
+        overflow: hidden;
+        font-family: Helvetica,Arial,sans-serif
+    	font-size:12px;
+    }
+    
+    .projectFiles {
+    	position: relative;
+    	border-top: 1px solid blue;
+    }
+    
+    .dirFiles {
+    	position: relative;
+    	border-top: 1px solid black;
+    }
+    
+    .aux {
+    	position: absolute;
+    	width: 100%;
+    }
+    
+    #menu {
+    	margin: 0;
+		padding: 0;
+		position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+		width: 25%;
+		height: 6%;
+        font-size: 14.5px;
+        font-family: Helvetica,Arial,sans-serif		
+    }
+    
+	#browser {
+		margin: 0;
+		padding: 0;
+		position: absolute;
+        top: 6%;
+        bottom: 0;
+        left: 0;
+		width: 25%;
+        overflow: scroll;
+        font-size: 14.5px;
+        font-family: Helvetica,Arial,sans-serif
+	}
+    
+    #code { 
+    	margin: 0;
+    	padding: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 25%;
+        right: 0;
+        float: right;
+    }
+    
+    #editor { 
+        position: relative;
+        height: 100%;
+    }
+	
+	#vote-menu {
+     	margin: 0;
+     	padding: 5px;
+        position: absolute;
+        left: 0;
+    	background: lightgrey;
+    	display: none;
+    }
+    
+    #vote-menu img {
+    	padding-top: 1px;
+    	padding-right: 6px;
+    }
+  </style>
